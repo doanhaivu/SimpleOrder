@@ -1,6 +1,8 @@
 # SimpleOrder
 
+## Order
 GET   http://localhost:8080/orders
+
 POST  http://localhost:8080/orders
     ```
     {
@@ -9,6 +11,7 @@ POST  http://localhost:8080/orders
       "quantity": [5,5]
     }
     ```
+
 PUT   http://localhost:8080/orders/9
     ```
     {
@@ -17,9 +20,13 @@ PUT   http://localhost:8080/orders/9
       "quantity": [1]
     }
     ```
+
 DELETE  http://localhost:8080/orders/11
 
+## Inventory
+
 GET   http://localhost:8080/inventory
+
 POST  http://localhost:8080/inventory
     ```
     {
